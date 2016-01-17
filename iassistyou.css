@@ -1,0 +1,327 @@
+/*CSS Stylesheet - element selectors and definitions*/
+body		{			
+		background-color:	#ffffff;     /* Site Background Color Default */
+		color:					#000000;	
+		font-family:	"Microsoft Sans Serif", 
+									"Arial rounded", 
+									Century,
+									"Times New Roman",
+									Sans-serif;
+}
+h2			{	
+		font-family:	Arial, sans-serif;
+}
+a:link		{	color:						#fdfdfd;	}
+a:visited	{	color:						#eaeaea;	}
+a:hover		{	color:						#869dc7;
+						background-color:	#eaeaea;
+}
+label	{
+		float:					left;
+		clear:					left;
+		width:					100px;
+		text-align:			right;
+		display:				block;
+		padding-right:	10px;
+		margin-top:			10px;
+}
+input, textarea	{
+		margin-top:			10px;
+}
+
+/*CLASS selectors and definitions*/
+.catcheyintro			{
+			color:				#e86d1f;
+			font-style:		italic;
+			font-weight:	bold;
+			font-size:		120%;
+			padding:			0;
+			margin-top:   12px;
+}
+.quotation		{
+			font-style:		italic;
+}
+.quoteby			{
+			font-style:		normal;	
+			font-weight:	bold;
+}
+#iassistlogo	{
+			float:				right;
+			position:			relative;
+			top:					-29px;
+}
+/*ID selectors and definitions*/
+#wrapperborder	{	
+		margin:						0	auto;
+		width:						82%;
+		min-width:				1020px;
+		background-color:	#5e8669;
+}
+#wrapper	{	
+		margin:						0	auto;
+		width:						80%;
+		min-width:				960px;
+}
+#header	{
+		height:							80px;
+		margin:							0px;
+		border:							0px;
+		padding:						0px;  
+		background-color:		#5e8669;
+		color:							#fdfdfd;
+}
+#hdrimage	{
+		float:				left;
+		width:				60px;
+		height:				70px;
+		margin:				1px 0px 0px 5px;
+}
+#headline1			{	
+		margin-bottom:		0;
+		color:						#fdfdfd;
+		padding-left:			230px;
+		width:						350px;
+}
+#head1line2	{
+		margin-left:		100px;
+		margin-top:			0;
+		margin-bottom:	0;
+		margin-right:		0;
+		padding-left:		195px;
+		font-style:			italic;
+		font-size:			30px;
+		height:					35px;
+		width:					375px;
+}
+#navigation	{
+		height:						20px;
+ 		margin:						0px;
+		border:						0px;
+		padding:					0px;    
+		background-color:	#5e8669;
+		color:						#fdfdfd;
+}
+#contentwrap	{
+		background-image: url('images/IAYOS_Terminal-Background 32x40.jpg');
+		border-radius:		10px;
+		margin:						0;
+		overflow: 				auto;
+		color:						#005543;
+}
+#contentwrap a:link			{	color:						#005643;	}
+#contentwrap a:visited	{	color:						#008567;	}
+#contentwrap a:hover		{	color:						#008567;
+													background-color:	#eaeaea;
+}
+#emailbodyanchor a:link			{	color:						purple /*#005643*/;	}
+#emailbodyanchor a:visited	{	color:						purple /*#008567*/;	}
+#emailbodyanchor a:hover		{	color:						#008567;
+															background-color:	#eaeaea;
+}	
+#contentright		{	
+		float:										right;
+		width:										340px;
+		padding:									0px	20px;
+		margin:										5px;
+/*		border-top:								3px ridge #005543;
+		border-right:							3px ridge #005543;
+		border-left:							3px ridge #005543;
+		border-top-left-radius:		10px;
+		border-top-right-radius:	10px;*/
+}
+#socialconnect	{
+			float:						right;  
+			width:						110px;
+			height:						25px;
+			background-color:	#ffffff;
+			padding-top:			3px;
+			position:					relative;
+			top:							-29px;
+			background-image: url('images/IAYOS_Terminal-Background 32x40.jpg');
+			overflow-y:				hidden;
+}
+#linkedin	{
+			margin-left:			5px;
+}
+#facebook	{
+			margin-left:			5px;
+}
+#twitter	{
+			margin-left:			5px;
+}
+#searchform	{
+			width:		218px;
+			float:		right;
+			position:	relative;
+			right:		-113px;
+}
+#searchbutton	{
+			padding-left:		3px;
+			padding-right:	3px;
+}
+#contentleft	{	
+    	padding:					0px	20px;
+    	overflow:					auto;
+			min-height:				400px;
+			border:						3px ridge #005543;
+			margin:						5px;
+			border-radius:		10px;
+}
+#contentleftndx	{	
+    	padding:					0px	20px;
+    	overflow:					auto;
+			min-height:				400px;
+/*			border:						3px ridge #005543;  */
+			margin:						5px 5px 5px 15px;
+/*			border-radius:		10px;  */
+}
+#iassistlogo	{
+			float:				right;
+			position:			relative;
+			top:					-180px;
+}
+#footer		{	
+		font-size:				70%;
+    text-align:				center;
+    padding:					10px;
+    background-color:	#5e8669;
+    clear:						both;
+		color:						#fdfdfd;
+}
+#footercopyright	{
+		width:  	750px;
+		top:			2px;
+}
+#happening	{
+		font-weight:		bold;
+}
+#clientsimg	{
+		padding-left:		100px;
+		padding-bottom:	20px;
+}
+#linkstable		{
+		margin-bottom:	10px;
+		border:					0;
+}
+#linkstable td, tr	{
+		border:					1px solid #005543;
+		padding-left:		5px;	
+}
+#linkscaption	{
+		display:		none;    /* not displayed.  Used for semantics and accessibility */ 
+}
+#bioimg		{
+		float:			left; 
+		padding-right:  20px;
+		padding-top:		20px;
+		padding-bottom:	20px;
+}
+#contactimg1	{
+		float:					right;
+		padding-top:		20px;
+}
+#contactform	{
+		margin-bottom:	10px;
+}
+#iassistyoudl dt	{
+			color:					#e86d1f;	
+			font-weight:		bold;
+			padding-bottom:	5px;
+			padding-top:		5px;
+			margin-bottom:	0px;
+			margin-top:			0px
+}	
+#iassistyoudl dd	{
+			position:				relative;	
+			left:						-40px;
+			font-size:			95%;
+			padding-bottom:	5px;
+			padding-top:		0px
+			margin-bottom:	0px;
+			margin-top:			0px		
+}	
+#iassistyoudl ul	{
+			padding-top:		0px;
+			padding-bottom:	0px;
+			margin-top:			2px;
+			margin-bottom:	5px;
+}
+#iassistyoudl li	{
+			position:					relative;	
+			left:							-26px;
+			font-size:				90%;
+			list-style-image:	url('./images/text_disk_orange5x5.png');
+}	
+#imagefees1				{
+			position:					relative;
+			left:							50px;
+			top:							0px
+}
+#imagefees2				{
+			position:					relative;
+			left:							120px;
+}
+/* Section for floating navigation menu */
+#sddm		{	
+		margin: 	0;
+		padding: 	0;
+		z-index: 	30;
+}
+#sddm li	{	
+  	margin: 		0;
+  	padding: 		0;
+  	list-style: none;
+  	float: 			left;
+  	font: 			bold 14px arial;
+}
+#sddm li a	{	
+  	display: 					block;
+  	margin: 					0 1px 0 0;
+  	padding: 					1px 1px;
+  	width: 						80px;
+  	background: 			#5e8669;
+  	color: 						#fdfdfd;
+  	text-align: 			center;
+  	text-decoration: 	none;
+}
+#sddm li a:hover	{	
+  	background: #eaeaea;
+  	color: 			#869dc7;
+}
+#sddm div	{	
+  	position: 	absolute;
+  	visibility: hidden;
+  	margin: 		0;
+  	padding: 		0;
+  	background: #5e8669;
+  	border: 		1px solid #5970B2;
+}
+#sddm div a	{	
+		position: 				relative;
+		display: 					block;
+		margin: 					0;
+		padding: 					5px 10px;
+		width: 						auto;
+		white-space: 			nowrap;
+		text-align: 			left;
+		text-decoration: 	none;
+		background: 			#5e8669;
+		color: 						#fdfdfd;
+		font: 						bold 12px arial;
+}
+#sddm div a:hover	{	
+		background: #eaeaea;
+		color: 			#869dc7;
+}
+#clearfloatmenu	{
+		clear:					both;
+		padding-bottom:	180px;
+}
+
+/* NEED TO REMOVE THIS ONCE ADDRESS INFO IS STABLE FOR INGRID */
+#temp_hide {
+	display: none;
+}
+.temp_hide2 {
+	visibility: hidden;
+}
